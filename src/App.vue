@@ -1,29 +1,27 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+    <div id="nav" class="fixed pin-t w-full flex justify-center items-center bg-blue-light h-8">
+      <router-link
+        class="no-underline mr-4 text-white hover:text-blue-darker"
+        to="/">
+          Home
+      </router-link>
+      <router-link
+        class="no-underline text-white hover:text-blue-darker" 
+        to="/about">
+          About
+      </router-link>
     </div>
     <router-view/>
+    <div class="-mt-12">
+      <p class="text-center">Maintained by 
+        <a 
+          class="text-black font-bold no-underline hover:underline" 
+          href="mailto:nathanhipps@gmail.com">
+          Nathan Hipps
+        </a>
+      </p>
+      <p class="text-center">Send me a message if you are having problems with a serial number</p>
+    </div>
   </div>
 </template>
-
-<style lang="scss">
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-#nav {
-  padding: 30px;
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
-}
-</style>

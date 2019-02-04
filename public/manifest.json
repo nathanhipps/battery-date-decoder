@@ -1,6 +1,6 @@
 {
-  "name": "battery-date-decoder",
-  "short_name": "battery-date-decoder",
+  "name": "Battery Date Decoder",
+  "short_name": "Battery Date",
   "icons": [
     {
       "src": "./img/icons/android-chrome-192x192.png",
@@ -14,7 +14,10 @@
     }
   ],
   "start_url": "./index.html",
+  "scope": ".",
   "display": "standalone",
   "background_color": "#000000",
-  "theme_color": "#4DBA87"
+  "theme_color": "#4DBA87",
+  "description": "Lookup manufactured dates for industrial batteries",
+  "lang": "en-US"
 }
