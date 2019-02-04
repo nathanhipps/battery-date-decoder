@@ -10,7 +10,8 @@
   "dependencies": {
     "autoprefixer": "^9.4.7",
     "register-service-worker": "^1.5.2",
-    "vue": "^2.5.22",
+    "terser": "^3.14.1",
+    "vue": "^2.6.0",
     "vue-router": "^3.0.1"
   },
   "devDependencies": {
@@ -23,6 +24,6 @@
     "node-sass": "^4.9.0",
     "sass-loader": "^7.1.0",
     "tailwindcss": "^0.7.4",
-    "vue-template-compiler": "^2.5.21"
+    "vue-template-compiler": "^2.6.0"
   }
 }
