@@ -13,8 +13,8 @@
       </router-link>
     </div>
     <router-view/>
-    <div class="-mt-12">
-      <p class="text-center">Maintained by 
+    <div class="-mt-20">
+      <p class="text-center mb-2">Maintained by 
         <a 
           class="text-black font-bold no-underline hover:underline" 
           href="mailto:nathanhipps@gmail.com">

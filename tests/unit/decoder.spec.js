@@ -75,25 +75,6 @@ describe('Battery Date Decoder', () => {
     )
   })
 
-  it ('can format an Enersys serial number', () => {
-    let decoder = new Decoder('enersys', 'RMA744065')
-    assert.equal('Manufactured in Richmond, KY on January, 2014', decoder.getDateString())
-
-    decoder = new Decoder('Enersys', 'MLJ44065')
-    assert.equal('Manufactured in Monterrey, MX on October, 2013', decoder.getDateString())
-
-    decoder = new Decoder('EneRsys', 'RLH8037233')
-    assert.equal('Manufactured in Richmond, KY on August, 2013', decoder.getDateString())
-  })
-
-  it ('rejects an incorrectly formatted Enersys serial number', () => {
-    let decoder = new Decoder('enersys', 'F44558855445')
-    assert.equal(
-      'The serial number you provided, "F44558855445", cannot be decoded', 
-      decoder.getDateString()
-    )
-  })
-
   it ('can format an Douglas serial number', () => {
     // Prior to Enersys purchase, Douglas used all numerical serial numbers
     let decoder = new Decoder('douglas', '090013402')
@@ -115,6 +96,25 @@ describe('Battery Date Decoder', () => {
     )
   })
 
+  it ('can format an Enersys serial number', () => {
+    let decoder = new Decoder('enersys', 'RMA744065')
+    assert.equal('Manufactured in Richmond, KY on January, 2014', decoder.getDateString())
+
+    decoder = new Decoder('Enersys', 'MLJ44065')
+    assert.equal('Manufactured in Monterrey, MX on October, 2013', decoder.getDateString())
+
+    decoder = new Decoder('EneRsys', 'RLH8037233')
+    assert.equal('Manufactured in Richmond, KY on August, 2013', decoder.getDateString())
+  })
+
+  it ('rejects an incorrectly formatted Enersys serial number', () => {
+    let decoder = new Decoder('enersys', 'F44558855445')
+    assert.equal(
+      'The serial number you provided, "F44558855445", cannot be decoded', 
+      decoder.getDateString()
+    )
+  })
+
   it ('can format a General serial number', () => {
     let decoder = new Decoder('General', 'RMA744065')
     assert.equal('Manufactured in Richmond, KY on January, 2014', decoder.getDateString())
@@ -125,22 +125,6 @@ describe('Battery Date Decoder', () => {
 
   it ('rejects an incorrectly formatted General serial number', () => {
     let decoder = new Decoder('general', 'F44558855445')
-    assert.equal(
-      'The serial number you provided, "F44558855445", cannot be decoded', 
-      decoder.getDateString()
-    )
-  })
-
-  it ('can format a HUP serial number', () => {
-    let decoder = new Decoder('HUP', 'RMA744065')
-    assert.equal('Manufactured in Richmond, KY on January, 2014', decoder.getDateString())
-
-    decoder = new Decoder('hup', 'MLJ44065')
-    assert.equal('Manufactured in Monterrey, MX on October, 2013', decoder.getDateString())
-  })
-
-  it ('rejects an incorrectly formatted HUP serial number', () => {
-    let decoder = new Decoder('hup', 'F44558855445')
     assert.equal(
       'The serial number you provided, "F44558855445", cannot be decoded', 
       decoder.getDateString()
@@ -179,9 +163,21 @@ describe('Battery Date Decoder', () => {
     )
   })
 
+  it ('can format a HUP serial number', () => {
+    let decoder = new Decoder('HUP', 'RMA744065')
+    assert.equal('Manufactured in Richmond, KY on January, 2014', decoder.getDateString())
 
+    decoder = new Decoder('hup', 'MLJ44065')
+    assert.equal('Manufactured in Monterrey, MX on October, 2013', decoder.getDateString())
+  })
 
-
+  it ('rejects an incorrectly formatted HUP serial number', () => {
+    let decoder = new Decoder('hup', 'F44558855445')
+    assert.equal(
+      'The serial number you provided, "F44558855445", cannot be decoded', 
+      decoder.getDateString()
+    )
+  })
 
   it ('can format a Reaco serial number', () => {
     let decoder = new Decoder('reaco', 'r63933c15')
