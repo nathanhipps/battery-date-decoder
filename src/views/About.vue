@@ -1086,5 +1086,22 @@
       </div>
     </div>
 
+    <h2 class="text-xl mb-4 text-blue-dark mt-6">Can I see the source code?</h2>
+    <p class="mb-8 leading-loose">
+     <a
+      class="text-xl no-underline text-black hover:underline" 
+      href="https://github.com/nathanhipps/battery-date-decoder">
+        <img
+          class="w-8" 
+          src="/img/icons/github.png" 
+          alt="Github Logo">
+        Sure can...take a look here!
+      </a>
+    </p>
+    
+    <h2 class="text-xl mb-4 text-blue-dark mt-6">My serial number isn't working. What is wrong?</h2>
+    <p class="mb-8 leading-loose">
+      You got me. Take a look at the way I am deciphering the code and let me know if I am doing something wrong. I will be happy to correct it so that it works better. If it is a brand new battery, I probably guessed wrong on this year's mapping. Let me know, and I will update it.
+    </p>
   </div>
 </template>
