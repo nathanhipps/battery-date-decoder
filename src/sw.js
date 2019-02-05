@@ -2,6 +2,6 @@
 workbox.routing.registerRoute(
   /^https:\/\/fonts\.googleapis\.com/,
   workbox.strategies.staleWhileRevalidate({
-    cacheName: 'google-fonts-stylesheets',
-  }),
+    cacheName: 'google-fonts-stylesheets'
+  })
 );
