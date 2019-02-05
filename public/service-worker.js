@@ -3,6 +3,8 @@ self.addEventListener('install', e => {
     caches
       .open('static')
       .then(cache => {
+        cache.add('/')
+        cache.add('/about')
         cache.add('/img/icons/android-icon-36x36.png')
         cache.add('/img/icons/android-icon-48x48.png')
         cache.add('/img/icons/android-icon-72x72.png')
