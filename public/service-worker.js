@@ -32,8 +32,12 @@ self.addEventListener('fetch', e => {
     caches
       .match(e.request)
       .then(response => {
-        if (response) return response 
-
-        return fetch(e.request)
-      }))
+        if (response) {
+          return response
+        } else {
+          return fetch(e.request)
+        }
+      })
+      .catch(error => console.log(error))
+  )
 })
