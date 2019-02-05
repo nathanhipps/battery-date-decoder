@@ -16,7 +16,7 @@ self.addEventListener('install', event => {
       cache.add('/img/icons/favicon-32x32.png')
       cache.add('/img/icons/favicon-96x96.png')
       cache.add('/img/icons/favicon-16x16.png')
-      cache.add('https://fonts.googleapis.com/css?family=Raleway')
+
     })
   )
 })
