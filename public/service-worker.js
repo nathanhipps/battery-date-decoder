@@ -9,9 +9,21 @@ self.addEventListener("message", msg => {
 })
 
 workbox.routing.registerRoute(
-  new RegExp('/\img\/icons\/.*\.(png|jpg)/'),
+  new RegExp('\/\img\/icons\/.*\.(png|jpg)'),
   workbox.strategies.cacheFirst({
     cacheName: 'cache-icons',
+    plugins: [
+      new workbox.expiration.Plugin({
+        maxAgeSeconds: 60 * 60 * 24 * 365,
+      }),
+    ],
+  }),
+); 
+
+workbox.routing.registerRoute(
+  'https://fonts.googleapis.com/css?family=Raleway',
+  workbox.strategies.cacheFirst({
+    cacheName: 'cache-font',
     plugins: [
       new workbox.expiration.Plugin({
         maxAgeSeconds: 60 * 60 * 24 * 365,
