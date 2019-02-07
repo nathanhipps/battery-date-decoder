@@ -9,7 +9,7 @@ self.addEventListener("message", msg => {
 })
 
 workbox.routing.registerRoute(
-  /img\/icons\/.*\.(png|jpg)/,
+  new RegExp('/\img\/icons\/.*\.(png|jpg)/'),
   workbox.strategies.cacheFirst({
     cacheName: 'cache-icons',
     plugins: [
