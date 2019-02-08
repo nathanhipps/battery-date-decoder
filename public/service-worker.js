@@ -32,4 +32,4 @@ workbox.routing.registerRoute(
   }),
 )
 
-workbox.routing.registerNavigationRoute("/")
+workbox.routing.registerNavigationRoute("/index.html")
