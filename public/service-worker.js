@@ -31,5 +31,3 @@ workbox.routing.registerRoute(
     ],
   }),
 )
-
-workbox.routing.registerNavigationRoute("/index.html")
