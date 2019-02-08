@@ -2,14 +2,19 @@
   <div id="app">
     <div id="nav" class="fixed pin-t w-full flex justify-center items-center bg-blue-light h-8">
       <router-link
-        class="no-underline mr-4 text-white hover:text-blue-darker"
+        class="no-underline mr-6 text-white hover:text-blue-darker"
         to="/">
           Home
       </router-link>
       <router-link
-        class="no-underline text-white hover:text-blue-darker" 
+        class="no-underline mr-6 text-white hover:text-blue-darker" 
         to="/about">
           About
+      </router-link>
+      <router-link
+        class="no-underline text-white hover:text-blue-darker" 
+        to="/installation">
+          Installation
       </router-link>
     </div>
     <router-view/>
