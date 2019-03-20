@@ -29,11 +29,10 @@ class Decoder {
     // Bulldog month code starts with 4 (January)
     // Bulldog year of manufacture is 4 less than the year date code
     const locations = { t: 'Terrell, TX', w: 'Wabash, IN' }
-    const parsed    = /^[a-z]?(1[2-9]|[2-9])([0-9]{2})([wt])/g.exec(this.serial)
+    const parsed    = /^[a-z]?(1[0-9]|[4-9])([0-9]{2})([wt])/g.exec(this.serial)
     const month     = parsed ? this.getMonthString(+parsed[1] - 3) : false
     const year      = parsed ? +parsed[2] + 1996                   : false
     const location  = parsed ? locations[parsed[3]]                : false
-
     this.setMessageWithLocation(month, year, location)
   }
 
@@ -105,13 +104,16 @@ class Decoder {
     const locations = {
 			k: 'Kankakee',
 			g: 'Kansas City',
-			e: 'Fort Erie',
+      e: 'Fort Erie',
+      f: 'Fort Smith',
+      c: 'Columbus'
     }
 
     const years = {
-      h: 2005, i: 2006, j: 2007, k: 2008, l: 2009, m: 2010, 
-      n: 2011, p: 2012, r: 2013, s: 2014, t: 2015, u: 2016,
-			v: 2017, w: 2018, x: 2019, y: 2020,
+      a: 1998, b: 1999, c: 2000, d: 2001, e: 2002, f: 2003,
+      g: 2004, h: 2005, i: 2006, j: 2007, k: 2008, l: 2009, 
+      m: 2010, n: 2011, p: 2012, r: 2013, s: 2014, t: 2015, 
+      u: 2016, v: 2017, w: 2018, x: 2019, y: 2020, z: 2021
     }
 
     const months = {

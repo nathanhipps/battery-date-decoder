@@ -31,6 +31,9 @@ describe('Battery Date Decoder', () => {
 
     decoder = new Decoder('Bulldog', 'S614W323')
     assert.equal('Manufactured in Wabash, IN on March, 2010', decoder.getDateString())
+
+    decoder = new Decoder('Bulldog', 'S1020W137')
+    assert.equal('Manufactured in Wabash, IN on July, 2016', decoder.getDateString())
   })
 
   it ('rejects an incorrectly formatted Bulldog serial number', () => {
@@ -134,6 +137,9 @@ describe('Battery Date Decoder', () => {
   it ('can format a GNB serial number', () => {
     let decoder = new Decoder('gnb', 'KEM12345')
     assert.equal('Manufactured in Kankakee on May, 2010', decoder.getDateString())
+
+    decoder = new Decoder('gnb', 'GHG2867')
+    assert.equal('Manufactured in Kansas City on August, 2004', decoder.getDateString())
   })
 
   it ('rejects an incorrectly formatted GNB serial number', () => {
