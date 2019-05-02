@@ -159,6 +159,9 @@ describe('Battery Date Decoder', () => {
 
     decoder = new Decoder('HAWKER', 'EP311102180')
     assert.equal('Model: Energy Plus/Lifespeed - Manufactured on November, 2010', decoder.getDateString())
+
+    decoder = new Decoder('HAWKER', 'WL110182815')
+    assert.equal('Model: Water Less/Standard - Manufactured on October, 2018', decoder.getDateString())
   })
 
   it ('rejects an incorrectly formatted Hawker serial number', () => {

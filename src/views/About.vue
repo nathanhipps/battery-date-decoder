@@ -947,6 +947,11 @@
               <td class="pr-2 pb-2">Water Less</td>
             </tr>
             <tr>
+              <td class="pr-2 pb-2">WL</td>
+              <td class="pr-2 pb-2">-></td>
+              <td class="pr-2 pb-2">Water Less</td>
+            </tr>
+            <tr>
               <td class="pr-2 pb-2">VP</td>
               <td class="pr-2 pb-2">-></td>
               <td class="pr-2 pb-2">Varta Perfect</td>

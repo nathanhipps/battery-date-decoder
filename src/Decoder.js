@@ -136,6 +136,7 @@ class Decoder {
       tp: 'Top Power',
       ep: 'Energy Plus',
       w:  'Water Less',
+      wl:  'Water Less',
       vp: 'Varta Perfect',
       pl: 'Powerline',
       el: 'Envirolink'
