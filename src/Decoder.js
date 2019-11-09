@@ -43,7 +43,7 @@ class Decoder {
     const parsed = /([a-z])([0-9]){1,2}$/g.exec(this.serial)
 
     if (parsed) {
-      const year      = parseInt(parsed[2]) < 10 ? parseInt(parsed[2]) + 2010 : parseInt(parsed[2]) + 2000
+      const year      = parseInt(parsed[2], 10) < 10 ? parseInt(parsed[2], 10) + 2010 : parseInt(parsed[2], 10) + 2000
       const month     = this.getMonthString(this.alphaMonths()[parsed[1]])
       this.dateString = `Manufactured on ${month}, ${year}`
     } else {
@@ -70,7 +70,7 @@ class Decoder {
     if (isNaN(this.serial)) {
       this.enersys()
     } else {
-      const year      = 2000 + parseInt(this.serial.substr(0, 2))
+      const year      = 2000 + parseInt(this.serial.substr(0, 2), 10)
       this.dateString = `Manufactured in ${year}`
     }
   }
