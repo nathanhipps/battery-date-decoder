@@ -9,8 +9,6 @@ class Decoder {
 
   bbi() {
     const years = {
-      x: 2004,
-      y: 2005,
       z: 2006,
       d: 2007,
       e: 2008,
@@ -24,7 +22,9 @@ class Decoder {
       p: 2016,
       r: 2017,
       t: 2018,
-      w: 2019
+      w: 2019,
+      x: 2020,
+      y: 2021,
     };
 
     const year = years[this.serial.substr(0, 1)] || false;
@@ -67,8 +67,6 @@ class Decoder {
 
   deka() {
     const years = {
-      j: 2000,
-      k: 2001,
       l: 2002,
       m: 2003,
       n: 2004,
@@ -86,7 +84,9 @@ class Decoder {
       f: 2016,
       g: 2017,
       h: 2018,
-      i: 2019
+      i: 2019,
+      j: 2020,
+      k: 2021,
     };
 
     const parsed = /([a-z])([a-z])$/g.exec(this.serial);
@@ -128,12 +128,12 @@ class Decoder {
       s: 2018,
       t: 2019,
       u: 2020,
-      w: 2021
+      w: 2021,
     };
 
     const locations = {
       r: "Richmond, KY",
-      m: "Monterrey, MX"
+      m: "Monterrey, MX",
     };
 
     const parsed = /^([a-z])([a-z])([a-z])/g.exec(this.serial);
@@ -156,11 +156,10 @@ class Decoder {
       g: "Kansas City",
       e: "Fort Erie",
       f: "Fort Smith",
-      c: "Columbus"
+      c: "Columbus",
     };
 
     const years = {
-      a: 1998,
       b: 1999,
       c: 2000,
       d: 2001,
@@ -182,7 +181,8 @@ class Decoder {
       w: 2017,
       x: 2018,
       y: 2019,
-      z: 2020
+      z: 2020,
+      a: 2021,
     };
 
     const months = {
@@ -197,7 +197,7 @@ class Decoder {
       j: 9,
       k: 10,
       l: 11,
-      m: 12
+      m: 12,
     };
 
     const parsed = /^([a-z])([a-z])([a-z])/g.exec(this.serial);
@@ -217,14 +217,14 @@ class Decoder {
       wl: "Water Less",
       vp: "Varta Perfect",
       pl: "Powerline",
-      el: "Envirolink"
+      el: "Envirolink",
     };
 
     const types = {
       1: "Standard",
       2: "Rapid Charge",
       3: "Lifespeed",
-      4: "Solar"
+      4: "Solar",
     };
 
     const parsed = /^([a-z]{1,2})([1-4]{1})([0-9]{2})([0-9]{2})/g.exec(
@@ -293,7 +293,7 @@ class Decoder {
       i: 9,
       j: 10,
       k: 11,
-      l: 12
+      l: 12,
     };
   }
 
@@ -310,7 +310,7 @@ class Decoder {
       "September",
       "October",
       "November",
-      "December"
+      "December",
     ];
   }
 
