@@ -134,6 +134,7 @@ class Decoder {
     const locations = {
       r: "Richmond, KY",
       m: "Monterrey, MX",
+      c: "Chicago, IL",
     };
 
     const parsed = /^([a-z])([a-z])([a-z])/g.exec(this.serial);

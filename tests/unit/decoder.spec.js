@@ -134,6 +134,12 @@ describe("Battery Date Decoder", () => {
       "Manufactured in Richmond, KY on August, 2013",
       decoder.getDateString()
     );
+
+    decoder = new Decoder("EneRsys", "CLH8037233");
+    assert.equal(
+      "Manufactured in Chicago, IL on August, 2013",
+      decoder.getDateString()
+    );
   });
 
   it("rejects an incorrectly formatted Enersys serial number", () => {
