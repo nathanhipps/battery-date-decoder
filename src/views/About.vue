@@ -3,19 +3,27 @@
     class="mt-16 mb-32 max-w-lg px-8 py-4 md:rounded-lg shadow-lg mx-auto bg-blue-lightest text-black"
   >
     <h2 class="text-xl mb-4 text-blue-dark mt-6">What is this?</h2>
-    <p
-      class="mb-8 leading-loose"
-    >Industrial steel case batteries that are used in electric forlift trucks have serial numbers that indicate their manufactured date. Each manufacturer uses their own sequence of numbers to indicate the date, and this can make it difficult to decipher. The battery date decoder attempts to match your serial number to known sequences and provide you with a manufactured date.</p>
+    <p class="mb-8 leading-loose">
+      Industrial steel case batteries that are used in electric forklift trucks
+      have serial numbers that indicate their manufactured date. Each
+      manufacturer uses their own sequence of numbers to indicate the date, and
+      this can make it difficult to decipher. The battery date decoder attempts
+      to match your serial number to known sequences and provide you with a
+      manufactured date.
+    </p>
 
     <h2 class="text-xl mb-4 text-blue-dark">How does it work?</h2>
-    <p
-      class="mb-8 leading-normal"
-    >Below are the tecniques used for deciphering each manufacturer's serial number:</p>
+    <p class="mb-8 leading-normal">
+      Below are the tecniques used for deciphering each manufacturer's serial
+      number:
+    </p>
 
     <div class="mb-10">
       <h3
         class="text-base mb-4 text-blue-dark border-blue-lighter pb-2 border-b-2"
-      >BBI - Battery Builders</h3>
+      >
+        BBI - Battery Builders
+      </h3>
       <div class="md:flex md:items-start">
         <div
           class="bg-blue rounded block text-white px-6 py-6 text-center md:mr-8 shadow-md mb-4 flex-1"
@@ -25,9 +33,10 @@
           <span class="text-xs text-yellow">2012</span>
         </div>
         <div class="md:w-2/3">
-          <p
-            class="mb-4 leading-normal"
-          >The first digit is the year code for the battery and the rest is the serial number. Below is the year mapping:</p>
+          <p class="mb-4 leading-normal">
+            The first digit is the year code for the battery and the rest is the
+            serial number. Below is the year mapping:
+          </p>
         </div>
       </div>
       <div class="bg-white px-6 py-4 rounded shadow md:w-1/2 mb-6">
@@ -128,7 +137,11 @@
     </div>
 
     <div class="mb-10">
-      <h3 class="text-base mb-4 text-blue-dark border-blue-lighter pb-2 border-b-2">Bulldog</h3>
+      <h3
+        class="text-base mb-4 text-blue-dark border-blue-lighter pb-2 border-b-2"
+      >
+        Bulldog
+      </h3>
       <div class="md:flex md:items-start">
         <div
           class="bg-blue rounded block text-white px-6 py-6 text-center md:mr-8 shadow-md mb-4 flex-1"
@@ -138,9 +151,15 @@
           <span class="text-xs text-yellow">Terrell, TX on October, 2008</span>
         </div>
         <div class="md:w-2/3">
-          <p
-            class="mb-4 leading-normal"
-          >The leading letter can be discarded as it does not seem to indicate anything useful. The next one or two numeric digits indicate the month code and the following two numeric digits indicate the year code. The year is 4 less than the year code, so in this example, the year would be 2008. The following letter indicates the manufacturing facility. Numbers following this letter are the serial number. Below is the month mapping and facility mapping:</p>
+          <p class="mb-4 leading-normal">
+            The leading letter can be discarded as it does not seem to indicate
+            anything useful. The next one or two numeric digits indicate the
+            month code and the following two numeric digits indicate the year
+            code. The year is 4 less than the year code, so in this example, the
+            year would be 2008. The following letter indicates the manufacturing
+            facility. Numbers following this letter are the serial number. Below
+            is the month mapping and facility mapping:
+          </p>
         </div>
       </div>
       <div class="md:flex md:items-start">
@@ -228,7 +247,11 @@
     </div>
 
     <div class="mb-10">
-      <h3 class="text-base mb-4 text-blue-dark border-blue-lighter pb-2 border-b-2">Crown</h3>
+      <h3
+        class="text-base mb-4 text-blue-dark border-blue-lighter pb-2 border-b-2"
+      >
+        Crown
+      </h3>
       <div class="md:flex md:items-start">
         <div
           class="bg-blue rounded block text-white px-6 py-6 text-center md:mr-8 shadow-md mb-4 flex-1"
@@ -238,9 +261,12 @@
           <span class="text-xs text-yellow">June, 2010</span>
         </div>
         <div class="md:w-2/3">
-          <p
-            class="mb-4 leading-normal"
-          >The first 5 digits are the serial number for the battery. The last three digits represent the date code. The first digit of the date code is a month code and the last one or two digits represent the year. Below is the month mapping:</p>
+          <p class="mb-4 leading-normal">
+            The first 5 digits are the serial number for the battery. The last
+            three digits represent the date code. The first digit of the date
+            code is a month code and the last one or two digits represent the
+            year. Below is the month mapping:
+          </p>
         </div>
       </div>
       <div class="bg-white px-6 py-4 rounded shadow md:w-1/2 mb-6">
@@ -311,7 +337,11 @@
     </div>
 
     <div class="mb-10">
-      <h3 class="text-base mb-4 text-blue-dark border-blue-lighter pb-2 border-b-2">Deka</h3>
+      <h3
+        class="text-base mb-4 text-blue-dark border-blue-lighter pb-2 border-b-2"
+      >
+        Deka
+      </h3>
       <div class="md:flex md:items-start">
         <div
           class="bg-blue rounded block text-white px-6 py-6 text-center md:mr-8 shadow-md mb-4 flex-1"
@@ -321,9 +351,11 @@
           <span class="text-xs text-yellow">July, 2010</span>
         </div>
         <div class="md:w-2/3">
-          <p
-            class="mb-4 leading-normal"
-          >The two letters at the end of the serial number are the date code. The first letter is the month code and the second letter is the year code. Below are the month &amp; year mappings:</p>
+          <p class="mb-4 leading-normal">
+            The two letters at the end of the serial number are the date code.
+            The first letter is the month code and the second letter is the year
+            code. Below are the month &amp; year mappings:
+          </p>
         </div>
       </div>
       <div class="md:flex md:items-start">
@@ -501,7 +533,11 @@
     </div>
 
     <div class="mb-10">
-      <h3 class="text-base mb-4 text-blue-dark border-blue-lighter pb-2 border-b-2">Douglas</h3>
+      <h3
+        class="text-base mb-4 text-blue-dark border-blue-lighter pb-2 border-b-2"
+      >
+        Douglas
+      </h3>
       <div class="md:flex md:items-start">
         <div
           class="bg-blue rounded block text-white px-6 py-6 text-center md:mr-8 shadow-md mb-4 flex-1"
@@ -512,11 +548,14 @@
         </div>
         <div class="md:w-2/3">
           <p class="mb-4 leading-normal">
-            The first two digits indicate the year code. If your douglas battery has any letters, it was manufactured after Douglas was purchased by Enersys. Please see the
+            The first two digits indicate the year code. If your douglas battery
+            has any letters, it was manufactured after Douglas was purchased by
+            Enersys. Please see the
             <a
               href="#enersys"
               class="text-blue-dark no-underline hover:underline"
-            >Enersys section</a>
+              >Enersys section</a
+            >
             for more information on those numbers.
           </p>
         </div>
@@ -524,7 +563,11 @@
     </div>
 
     <div id="enersys" class="mb-10">
-      <h3 class="text-base mb-4 text-blue-dark border-blue-lighter pb-2 border-b-2">Enersys</h3>
+      <h3
+        class="text-base mb-4 text-blue-dark border-blue-lighter pb-2 border-b-2"
+      >
+        Enersys
+      </h3>
       <div class="md:flex md:items-start">
         <div
           class="bg-blue rounded block text-white px-6 py-6 text-center md:mr-8 shadow-md mb-4 flex-1"
@@ -534,9 +577,12 @@
           <span class="text-xs text-yellow">Richmond, KY on January 2014</span>
         </div>
         <div class="md:w-2/3">
-          <p
-            class="mb-4 leading-normal"
-          >The first three letters at the beginning of the serial number are your date code. The first letter indicates the location where it was manufactured. The second letter is the year code. The third letter is the month code. All of the mappings are below:</p>
+          <p class="mb-4 leading-normal">
+            The first three letters at the beginning of the serial number are
+            your date code. The first letter indicates the location where it was
+            manufactured. The second letter is the year code. The third letter
+            is the month code. All of the mappings are below:
+          </p>
         </div>
       </div>
       <div class="md:flex md:items-start">
@@ -733,19 +779,26 @@
     </div>
 
     <div class="mb-10">
-      <h3 class="text-base mb-4 text-blue-dark border-blue-lighter pb-2 border-b-2">General</h3>
+      <h3
+        class="text-base mb-4 text-blue-dark border-blue-lighter pb-2 border-b-2"
+      >
+        General
+      </h3>
       <p>
         Same as Enersys. See
-        <a
-          href="#enersys"
-          class="text-blue-dark no-underline hover:underline"
-        >Enersys section</a>
+        <a href="#enersys" class="text-blue-dark no-underline hover:underline"
+          >Enersys section</a
+        >
         for more about your date code.
       </p>
     </div>
 
     <div class="mb-10">
-      <h3 class="text-base mb-4 text-blue-dark border-blue-lighter pb-2 border-b-2">GNB</h3>
+      <h3
+        class="text-base mb-4 text-blue-dark border-blue-lighter pb-2 border-b-2"
+      >
+        GNB
+      </h3>
       <div class="md:flex md:items-start">
         <div
           class="bg-blue rounded block text-white px-6 py-6 text-center md:mr-8 shadow-md mb-4 flex-1"
@@ -755,9 +808,12 @@
           <span class="text-xs text-yellow">Kankakee, May 2010</span>
         </div>
         <div class="md:w-2/3">
-          <p
-            class="mb-4 leading-normal"
-          >The first three letters at the beginning of the serial number are your date code. The first letter indicates the location where it was manufactured. The second letter is the month code. The third letter is the year code. All of the mappings are below:</p>
+          <p class="mb-4 leading-normal">
+            The first three letters at the beginning of the serial number are
+            your date code. The first letter indicates the location where it was
+            manufactured. The second letter is the month code. The third letter
+            is the year code. All of the mappings are below:
+          </p>
         </div>
       </div>
       <div class="md:flex md:items-start">
@@ -944,19 +1000,29 @@
     </div>
 
     <div class="mb-10">
-      <h3 class="text-base mb-4 text-blue-dark border-blue-lighter pb-2 border-b-2">Hawker</h3>
+      <h3
+        class="text-base mb-4 text-blue-dark border-blue-lighter pb-2 border-b-2"
+      >
+        Hawker
+      </h3>
       <div class="md:flex md:items-start">
         <div
           class="bg-blue rounded block text-white px-6 py-6 text-center md:mr-8 shadow-md mb-4 flex-1"
         >
           <span class="text-xs">Example Serial</span>
           <span class="text-xl block mt-2 mb-2">PL104060001</span>
-          <span class="text-xs text-yellow">Powerline/Standard, April 2006</span>
+          <span class="text-xs text-yellow"
+            >Powerline/Standard, April 2006</span
+          >
         </div>
         <div class="md:w-2/3">
-          <p
-            class="mb-4 leading-normal"
-          >The serial number should begin with 1 or 2 letters; this is your model code. The next single digit number will be your equipment type. This is followed by 2 numeric digits that indicate the month. The next two numeric digits indicate the year. Below are the mappings for models and equipment types</p>
+          <p class="mb-4 leading-normal">
+            The serial number should begin with 1 or 2 letters; this is your
+            model code. The next single digit number will be your equipment
+            type. This is followed by 2 numeric digits that indicate the month.
+            The next two numeric digits indicate the year. Below are the
+            mappings for models and equipment types
+          </p>
         </div>
       </div>
       <div class="md:flex md:items-start">
@@ -1030,19 +1096,26 @@
     </div>
 
     <div class="mb-10">
-      <h3 class="text-base mb-4 text-blue-dark border-blue-lighter pb-2 border-b-2">HUP</h3>
+      <h3
+        class="text-base mb-4 text-blue-dark border-blue-lighter pb-2 border-b-2"
+      >
+        HUP
+      </h3>
       <p>
         Same as Enersys. See
-        <a
-          href="#enersys"
-          class="text-blue-dark no-underline hover:underline"
-        >Enersys section</a>
+        <a href="#enersys" class="text-blue-dark no-underline hover:underline"
+          >Enersys section</a
+        >
         for more about your date code.
       </p>
     </div>
 
     <div class="mb-10">
-      <h3 class="text-base mb-4 text-blue-dark border-blue-lighter pb-2 border-b-2">Reaco</h3>
+      <h3
+        class="text-base mb-4 text-blue-dark border-blue-lighter pb-2 border-b-2"
+      >
+        Reaco
+      </h3>
       <div class="md:flex md:items-start">
         <div
           class="bg-blue rounded block text-white px-6 py-6 text-center md:mr-8 shadow-md mb-4 flex-1"
@@ -1052,9 +1125,11 @@
           <span class="text-xs text-yellow">March, 2015</span>
         </div>
         <div class="md:w-2/3">
-          <p
-            class="mb-4 leading-normal"
-          >The last three digits are your date code. The letter that begins the date code is your month code. The last two digits indicate the year. Below are the month mappings:</p>
+          <p class="mb-4 leading-normal">
+            The last three digits are your date code. The letter that begins the
+            date code is your month code. The last two digits indicate the year.
+            Below are the month mappings:
+          </p>
         </div>
       </div>
       <div class="bg-white px-6 py-4 rounded shadow md:w-1/2 mb-6">
@@ -1135,9 +1210,14 @@
       </a>
     </p>
 
-    <h2 class="text-xl mb-4 text-blue-dark mt-6">My serial number isn't working. What is wrong?</h2>
-    <p
-      class="mb-8 leading-loose"
-    >You got me. Take a look at the way I am deciphering the code and let me know if I am doing something wrong. I will be happy to correct it so that it works better. If it is a brand new battery, I probably guessed wrong on this year's mapping. Let me know, and I will update it.</p>
+    <h2 class="text-xl mb-4 text-blue-dark mt-6">
+      My serial number isn't working. What is wrong?
+    </h2>
+    <p class="mb-8 leading-loose">
+      You got me. Take a look at the way I am deciphering the code and let me
+      know if I am doing something wrong. I will be happy to correct it so that
+      it works better. If it is a brand new battery, I probably guessed wrong on
+      this year's mapping. Let me know, and I will update it.
+    </p>
   </div>
 </template>
